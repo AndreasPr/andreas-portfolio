@@ -13,6 +13,15 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
+                    <div className="col-lg-5">
+                        <div className="contact-about-area">
+                            <div className="thumbnail">
+                                <img src="" alt="contact-image"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
