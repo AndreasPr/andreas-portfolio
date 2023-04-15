@@ -19,6 +19,10 @@ const Contact = () => {
                             <div className="thumbnail">
                                 <img src="" alt="contact-image"/>
                             </div>
+                            <div className="title-area">
+                                <h4 className="title">Andreas Priftis</h4>
+                                <span>Software Engineer</span>
+                            </div>
                         </div>
                     </div>
                 </div>
