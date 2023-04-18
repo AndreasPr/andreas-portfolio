@@ -28,6 +28,14 @@ const Contact = () => {
                                 <span className="phone">Phone: +1 534-288-9503</span>
                                 <span className="email">Email: andreascompany@gmail.com</span>
                             </div>
+                            <div className="social-media-area">
+                                <div className="name">Find me!</div>
+                                <div className="social-group-icons">
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                    <a href="#"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
