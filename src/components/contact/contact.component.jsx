@@ -23,6 +23,11 @@ const Contact = () => {
                                 <h4 className="title">Andreas Priftis</h4>
                                 <span>Software Engineer</span>
                             </div>
+                            <div className="description">
+                                <p>I am available for freelance work. Connect with me via and call in to my account.</p>
+                                <span className="phone">Phone: +1 534-288-9503</span>
+                                <span className="email">Email: andreascompany@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                 </div>
