@@ -38,6 +38,15 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="col-lg-7 contact-input">
+                        <div className="contact-form-wrapper">
+                            <div className="introduce">
+                               <form id="contact-form">
+                                
+                                </form> 
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
