@@ -43,6 +43,19 @@ const Contact = () => {
                             <div className="introduce">
                                <form id="contact-form">
                                 
+                                    <div className="col-lg-6">
+                                        <div className="form-group">
+                                            <label for="contact-name">Your name</label>
+                                            <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="contact-phone">Phone Number</label>
+                                            <input class="form-control" name="contact-phone" id="contact-phone" type="text"/>
+                                        </div>
+                                    </div>
+
                                 </form> 
                             </div>
                         </div>
