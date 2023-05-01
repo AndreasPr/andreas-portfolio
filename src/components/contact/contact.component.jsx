@@ -17,7 +17,7 @@ const Contact = () => {
                     <div className="col-lg-5">
                         <div className="contact-about-area">
                             <div className="thumbnail">
-                                <img src="" alt="contact-image"/>
+                                <img src="../../assets/contact-image.jpg" alt="contact-image"/>
                             </div>
                             <div className="title-area">
                                 <h4 className="title">Andreas Priftis</h4>
@@ -44,38 +44,38 @@ const Contact = () => {
                                <form id="contact-form">
                                     <div className="col-lg-6">
                                         <div className="form-group">
-                                            <label for="contact-name">Your name</label>
-                                            <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text"/>
+                                            <label htmlFor="contact-name">Your name</label>
+                                            <input className="form-control form-control-lg" name="contact-name" id="contact-name" type="text"/>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="contact-phone">Phone Number</label>
-                                            <input class="form-control" name="contact-phone" id="contact-phone" type="text"/>
+                                    <div className="col-lg-6">
+                                        <div className="form-group">
+                                            <label htmlFor="contact-phone">Phone Number</label>
+                                            <input className="form-control" name="contact-phone" id="contact-phone" type="text"/>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-email">Email</label>
-                                            <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email"/>
+                                    <div className="col-lg-12">
+                                        <div className="form-group">
+                                            <label htmlFor="contact-email">Email</label>
+                                            <input className="form-control form-control-sm" id="contact-email" name="contact-email" type="email"/>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="subject">Subject</label>
-                                            <input class="form-control form-control-sm" id="subject" name="subject" type="text"/>
+                                    <div className="col-lg-12">
+                                        <div className="form-group">
+                                            <label htmlFor="subject">Subject</label>
+                                            <input className="form-control form-control-sm" id="subject" name="subject" type="text"/>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-message">Your Message</label>
+                                    <div className="col-lg-12">
+                                        <div className="form-group">
+                                            <label htmlFor="contact-message">Your Message</label>
                                             <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12">
-                                        <button name="submit" type="submit" id="submit" class="rn-btn">
+                                    <div className="col-lg-12">
+                                        <button name="submit" type="submit" id="submit" className="rn-btn">
                                             <span>SEND</span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                            
                                         </button>
                                     </div>
                                 </form> 

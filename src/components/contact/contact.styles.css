@@ -5,6 +5,7 @@
     --font-size-b1: 18px;
     --line-height-b1: 1.50;
     --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Montserrat", sans-serif;
     --color-body: #878e99;
     --p-regular: 400;
     --transition: 0.4s;
@@ -32,14 +33,19 @@
     line-height: 14px;
     margin-bottom: 10px;
 }
+.section-title h2.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-lightn);
+    margin-top: 15px;
+    margin-bottom: 0;
+    word-break: break-word;
+    font-family: var(--font-secondary);
+}
 
-
-
-
-
-
-.contact-about-area .title-area {
-    margin-bottom: 15px;
+.mt--50 {
+    margin-top: 50px;
 }
 
 .contact-about-area {
@@ -49,6 +55,11 @@
     background-color: #212428;
     height: 100%;
 }
+.contact-about-area .title-area {
+    margin-bottom: 15px;
+}
+
+
 .contact-about-area .thumbnail {
     margin-bottom: 28px;
     overflow: hidden;
