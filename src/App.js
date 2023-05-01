@@ -7,7 +7,8 @@ const Contact = lazy(() => import('./components/contact/contact.component'));
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+ 
+ 
       
       <Suspense fallback={<div/>}>
         <Contact />

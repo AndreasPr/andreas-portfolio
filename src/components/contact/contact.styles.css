@@ -11,6 +11,9 @@
     --transition: 0.4s;
     --color-lightn: #c4cfde;
 }
+svg:not(:root) {
+    overflow: hidden;
+}
 .contact {
     font-size: var(--font-size-b1);
     line-height: var(--line-height-b1);
@@ -59,7 +62,6 @@
     margin-bottom: 15px;
 }
 
-
 .contact-about-area .thumbnail {
     margin-bottom: 28px;
     overflow: hidden;
@@ -72,13 +74,55 @@
     margin-bottom: 9px;
     font-weight: bold;
 }
+
+/* ----------------------Contact Description */
+.contact-about-area .description {
+    margin-bottom: 39px;
+}
+.contact-about-area .description p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-body);
+    font-family: var(--font-primary);
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
 .contact-about-area .description span {
+    display: block;
     transition: var(--transition);
     position: relative;
     color: var(--color-lightn);
     font-weight: 400;
 }
-
+/* ----------------------Social Icons */
+.contact-about-area .social-area .name {
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    font-weight: 500;
+    color: var(--color-body);
+    margin-bottom: 8px;
+}
+.contact-about-area .social-area .social-group-icons {
+    margin-top: 24px;
+}
+.contact-about-area .social-area .social-group-icons a {
+    width: 61px;
+    height: 61px;
+    line-height: 57px;
+    margin-right: 15px;
+    box-shadow: var(--shadow-1);
+    border-radius: 6px;
+    transition: var(--transition);
+    display: inline-block;
+    text-align: center;
+}
+.contact-about-area .social-area .social-group-icons a svg {
+    stroke-width: 2;
+    width: 20px;
+    color: var(--color-lightn);
+    transition: var(--transition);
+}
 
 
 
