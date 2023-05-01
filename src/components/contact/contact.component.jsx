@@ -55,12 +55,30 @@ const Contact = () => {
                                             <input class="form-control" name="contact-phone" id="contact-phone" type="text"/>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="contact-email">Email</label>
-                                        <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email"/>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="contact-email">Email</label>
+                                            <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email"/>
+                                        </div>
                                     </div>
-
-
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="subject">Subject</label>
+                                            <input class="form-control form-control-sm" id="subject" name="subject" type="text"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <label for="contact-message">Your Message</label>
+                                            <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <button name="submit" type="submit" id="submit" class="rn-btn">
+                                            <span>SEND</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                                        </button>
+                                    </div>
                                 </form> 
                             </div>
                         </div>
