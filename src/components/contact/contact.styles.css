@@ -1,6 +1,88 @@
 :root{
     --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --color-subtitle: #f9004d;
+    --color-light: #E4E6EA;
+    --font-size-b1: 18px;
+    --line-height-b1: 1.50;
+    --font-primary: "Poppins", sans-serif;
+    --color-body: #878e99;
+    --p-regular: 400;
+    --transition: 0.4s;
+    --color-lightn: #c4cfde;
 }
+.contact {
+    font-size: var(--font-size-b1);
+    line-height: var(--line-height-b1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--font-primary);
+    color: var(--color-body);
+    font-weight: var(--p-regular);
+}
+.section-separator {
+    position: relative;
+}
+.rn-section-gap {
+    padding: 100px 0;
+}
+.section-title span.subtitle {
+    color: var(--color-subtitle);
+    letter-spacing: 1px;
+    display: block;
+    line-height: 14px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.contact-about-area .title-area {
+    margin-bottom: 15px;
+}
+
+.contact-about-area {
+    padding: 30px;
+    box-shadow: var(--shadow-1);
+    border-radius: 10px;
+    background-color: #212428;
+    height: 100%;
+}
+.contact-about-area .thumbnail {
+    margin-bottom: 28px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.contact-about-area .title-area h4.title {
+    font-size: 29px;
+    line-height: 44px;
+    color: var(--color-light);
+    margin-bottom: 9px;
+    font-weight: bold;
+}
+.contact-about-area .description span {
+    transition: var(--transition);
+    position: relative;
+    color: var(--color-lightn);
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact-form-wrapper{
     box-shadow: var(--shadow-1);
     padding: 30px;

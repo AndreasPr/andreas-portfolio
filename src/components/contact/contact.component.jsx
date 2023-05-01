@@ -3,12 +3,12 @@ import './contact.styles.css';
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <div className="rn-contact-area rn-section-gap section-separator contact">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title text-center">
-                            <span className="subtitle">Contact</span>
+                            <span className="subtitle">CONTACT</span>
                             <h2 className="title">Contact With Me</h2>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ const Contact = () => {
                             </div>
                             <div className="description">
                                 <p>I am available for freelance work. Connect with me via and call in to my account.</p>
-                                <span className="phone">Phone: +1 534-288-9503</span>
+                                <span className="phone">Phone: +1 534-288-9503</span><br/>
                                 <span className="email">Email: andreascompany@gmail.com</span>
                             </div>
                             <div className="social-media-area">
@@ -42,7 +42,6 @@ const Contact = () => {
                         <div className="contact-form-wrapper">
                             <div className="introduce">
                                <form id="contact-form">
-                                
                                     <div className="col-lg-6">
                                         <div className="form-group">
                                             <label for="contact-name">Your name</label>
