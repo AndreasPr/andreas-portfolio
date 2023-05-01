@@ -55,6 +55,11 @@ const Contact = () => {
                                             <input class="form-control" name="contact-phone" id="contact-phone" type="text"/>
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="contact-email">Email</label>
+                                        <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email"/>
+                                    </div>
+
 
                                 </form> 
                             </div>
