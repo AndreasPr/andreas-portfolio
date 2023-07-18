@@ -1,5 +1,8 @@
 # Andreas Portfolio
 
+## Technologies
+- ReactJS
+
 
 
 
