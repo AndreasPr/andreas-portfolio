@@ -2,6 +2,7 @@
 
 ## Technologies
 - ReactJS
+- CSS
 
 
 
